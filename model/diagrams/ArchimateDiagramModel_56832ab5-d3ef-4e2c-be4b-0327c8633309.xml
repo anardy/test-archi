@@ -24,9 +24,18 @@
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_579d99b5-8f10-43e3-86de-b122ca9916fd.xml#579d99b5-8f10-43e3-86de-b122ca9916fd"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="8e78a325-6b91-46dd-b75b-6ab4c9dfeb36"
+        source="58ad76bf-fa41-4379-864a-e8310d4ced78"
+        target="4bc21942-6414-4170-a4ed-0d413f181dee">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_e9375bfa-0a7e-4c1f-8f19-c5b0dd4c2d2d.xml#e9375bfa-0a7e-4c1f-8f19-c5b0dd4c2d2d"/>
+    </sourceConnections>
     <bounds
-        x="96"
-        y="132"
+        x="48"
+        y="36"
         width="326"
         height="192"/>
     <children
@@ -34,13 +43,26 @@
         id="ede9e2d6-81ba-4856-9f6e-cb2a2d80e82f"
         targetConnections="cfccc381-cfa7-4fd3-83cd-81628e19653f">
       <bounds
-          x="122"
-          y="75"
+          x="120"
+          y="36"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationFunction"
           href="ApplicationFunction_d15cafc6-3ecd-48f1-9293-6e991bbdf04f.xml#d15cafc6-3ecd-48f1-9293-6e991bbdf04f"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="4bc21942-6414-4170-a4ed-0d413f181dee"
+        targetConnections="8e78a325-6b91-46dd-b75b-6ab4c9dfeb36">
+      <bounds
+          x="120"
+          y="120"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationFunction"
+          href="ApplicationFunction_0dcb8bfa-2db5-4819-b4a1-1cc8bc366448.xml#0dcb8bfa-2db5-4819-b4a1-1cc8bc366448"/>
     </children>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -60,8 +82,8 @@
           href="AssignmentRelationship_324a6365-3046-4f8a-a012-03e1a9947e99.xml#324a6365-3046-4f8a-a012-03e1a9947e99"/>
     </sourceConnections>
     <bounds
-        x="504"
-        y="132"
+        x="456"
+        y="36"
         width="289"
         height="192"/>
     <children
